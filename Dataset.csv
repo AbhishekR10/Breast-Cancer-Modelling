@@ -1,0 +1,18 @@
+The following project utilizes the data from the following given url:'https://raw.githubusercontent.com/jarif87/DataSets/main/uci_breast_cancer.csv'
+
+
+
+////The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dataset, which is commonly referred to as the "Wisconsin Breast Cancer dataset." This dataset contains various features extracted from digitized images of fine needle aspirates (FNA) of breast masses. These features include measurements related to the size, shape, and texture of the cell nuclei present in the images.
+
+The dataset consists of several columns, with each row representing a different patient. The columns typically include features such as:
+
+id: A unique identifier for each patient.
+diagnosis: The target variable that distinguishes between malignant (M) and benign (B) cases. This column is used to classify patients into two categories based on their diagnosis.
+radius_mean: The mean of distances from the center to points on the perimeter of the cell nucleus.
+texture_mean: The standard deviation of gray-scale values in the image.
+perimeter_mean: The perimeter of the cell nucleus.
+area_mean: The area of the cell nucleus.
+smoothness_mean: The local variation in radius lengths.
+compactness_mean: The perimeter squared divided by the area - 1.0.
+concavity_mean: The severity of concave portions of the contour.
+concave points_mean: The number of concave portions of the contour.
